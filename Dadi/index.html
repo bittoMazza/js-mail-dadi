@@ -5,10 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="display-1 pb-5 text-white text-center"> RANDOM DADI <br> UTENTE VS COMPUTER </h1>
+        <div class="row justify-content-between">
+            <div class="col-5 text-center">
+                <h3 class="text-white"> Numero Random Utente</h3>
+                <span class="display-4" id="user-num"></span>
+            </div>
+            <div class="col-5 text-center">
+                <h3 class="text-white"> Numero Random Computer</h3>
+                <span class="display-4" id="ia-num"></span>
+            </div>
+        </div>
+        <h3 class="text-white display-3 text-center" id="final-message"></h3>
+    </div>
+
     <script src="./js/script.js"></script>
 </body>
 </html>
